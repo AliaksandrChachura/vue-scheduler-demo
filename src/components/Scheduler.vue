@@ -4,6 +4,7 @@
  
 <script>
 import 'dhtmlx-scheduler'
+import 'dhtmlx-scheduler/codebase/ext/dhtmlxscheduler_recurring.js';
 export default {
   name: 'scheduler',
   props: {
