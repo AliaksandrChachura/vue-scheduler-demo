@@ -18,8 +18,8 @@ export default {
   data () {
     return {
       events: [
-        { id:1, start_date:"2020-01-20 6:00", end_date:"2020-01-20 15:00", text:"Event 1"},
-        { id:2, start_date:"2020-01-23 6:00", end_date:"2020-01-23 20:00", text:"Event 2"}
+        { id:1, start_date:"2020-01-20 6:00", end_date:"2020-01-20 15:00", text:"Event 1", rec_type:"day_1___", event_length:"7200"},
+        { id:2, start_date:"2020-01-23 6:00", end_date:"2020-01-23 20:00", text:"Event 2", rec_type:"day_1___", event_length:"7200"}
       ],
       messages: []
     }
